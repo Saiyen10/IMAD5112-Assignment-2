@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:id="@+id/tvQuestionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Question 1/10"
+        android:layout_marginBottom="16dp"
+        android:textColor="#AAAAAA"/>
+
+    <TextView
+        android:id="@+id/tvStatement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:text="Statement goes here"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#00FF99"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:id="@+id/btnHack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00C853"
+            android:layout_marginEnd="16dp"
+            android:textColor="#FFFFFF"
+            android:text="Hack (True)"/>
+
+        <Button
+            android:id="@+id/btnMyth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Myth (False)"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E94560"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:backgroundTint="#16213E"/>
+
+</LinearLayout>
