@@ -20,9 +20,6 @@ This is an Android quiz app built with Kotlin. The app presents users with state
 ## GitHub Actions
 This project uses GitHub Actions to automatically build the app whenever code is pushed to the main branch. The workflow file is located at `.github/workflows/build.yml`. This ensures the code compiles correctly and not just on my local machine.
 
-## Video Demo
-[Watch the video here](YOUR_YOUTUBE_LINK_HERE)
-
 ## Developer
 Saiyendrin Govender | ST10513284  
 Emeris - Introduction to Mobile Application Development (IMAD5112)
